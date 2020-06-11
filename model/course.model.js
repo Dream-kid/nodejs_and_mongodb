@@ -7,6 +7,9 @@ var CourseSchema = new mongoose.Schema({
         courseId:{
             type: String
         },
+        courseDuration:{
+            type: String
+        },
         courseFee: {
             type: String
         }

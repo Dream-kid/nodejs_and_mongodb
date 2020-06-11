@@ -1,0 +1,20 @@
+<h1>
+    Courses
+</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Duration</th>
+        <th>Fee</th>
+    </tr>
+    {{#each data}}
+    <tr>
+<td>{{this.courseId}}</td>
+<td>{{this.courseName}}</td>
+<td>{{this.courseDuration}}</td>
+<td>{{this.courseFee}}</td>
+    </tr>
+{{/each}}
+</table>
